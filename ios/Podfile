@@ -35,7 +35,7 @@ end
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
-  
+
   # Flutter Pod
 
   copied_flutter_dir = File.join(__dir__, 'Flutter')
@@ -65,6 +65,8 @@ target 'Runner' do
   pod 'Flutter', :path => 'Flutter'
 
   # Plugin Pods
+  # For Goolge OCR
+  pod 'Firebase/MLVisionTextModel'
 
   # Prepare symlinks folder. We use symlinks to avoid having Podfile.lock
   # referring to absolute paths on developers' machines.

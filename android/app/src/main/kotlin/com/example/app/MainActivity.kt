@@ -1,4 +1,4 @@
-package com.example.app
+package wu.nick.savethedate
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

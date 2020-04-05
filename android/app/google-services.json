@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122686998141",
+    "firebase_url": "https://save-the-date-tech.firebaseio.com",
+    "project_id": "save-the-date-tech",
+    "storage_bucket": "save-the-date-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122686998141:android:1c7209af80c9506a989314",
+        "android_client_info": {
+          "package_name": "wu.nick.savethedate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122686998141-c63hi59h3lrbfob0qq1daoo0leo5v5d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHtVkpn2UEA2KrTwmDxoovAR58r6w6ZYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122686998141-c63hi59h3lrbfob0qq1daoo0leo5v5d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

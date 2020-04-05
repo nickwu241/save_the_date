@@ -1,13 +1,12 @@
 import 'package:add_2_calendar/add_2_calendar.dart';
+import 'package:save_the_date/models.dart';
 
-Future<bool> addToCalendar(String title, DateTime startDate, DateTime endDate,
-    {String description: '', String location: ''}) {
+Future<bool> addToCalendar(CalendarEvent calendarEvent) {
   final event = Event(
-    title: title,
-    description: description,
-    location: location,
-    startDate: startDate,
-    endDate: endDate,
+    title: calendarEvent.title,
+    startDate: calendarEvent.startDate,
+    endDate: calendarEvent.endDate,
+    timeZone: DateTime.now().timeZoneName,
   );
 
   return Add2Calendar.addEvent2Cal(event);
