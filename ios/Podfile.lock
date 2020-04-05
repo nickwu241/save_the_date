@@ -1,0 +1,28 @@
+PODS:
+  - add_2_calendar (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - receive_sharing_intent (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - add_2_calendar (from `.symlinks/plugins/add_2_calendar/ios`)
+  - Flutter (from `Flutter`)
+  - receive_sharing_intent (from `.symlinks/plugins/receive_sharing_intent/ios`)
+
+EXTERNAL SOURCES:
+  add_2_calendar:
+    :path: ".symlinks/plugins/add_2_calendar/ios"
+  Flutter:
+    :path: Flutter
+  receive_sharing_intent:
+    :path: ".symlinks/plugins/receive_sharing_intent/ios"
+
+SPEC CHECKSUMS:
+  add_2_calendar: c201b1c7dc0299280f1b1a8158aa80e15a8f8912
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  receive_sharing_intent: c0d87310754e74c0f9542947e7cbdf3a0335a3b1
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.9.1

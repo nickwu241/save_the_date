@@ -8,9 +8,20 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  bool eventAdded = false;
+
   @override
   void initState() {
     super.initState();
+
+    // addToCalendar('test', DateTime(2020, 4, 7, 12), DateTime(2020, 4, 7, 13))
+    //     .then(handleAddToCalendar);
+  }
+
+  void handleAddToCalendar(bool eventAdded) {
+    setState(() {
+      this.eventAdded = eventAdded;
+    });
   }
 
   @override
@@ -25,7 +36,9 @@ class _MyAppState extends State<MyApp> {
           title: Text('Save The Date'),
         ),
         body: Center(
-          child: Text('Hello World'),
+          child: eventAdded
+              ? Text('Event successfully added to calendar!')
+              : Text('Event failed to add to calendar.'),
         ),
       ),
     );

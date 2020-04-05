@@ -14,7 +14,7 @@ description: Add events to your calendar from screenshots!
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
+  sdk: '>=2.2.2 <3.0.0'
 
 dependencies:
   flutter:
@@ -23,6 +23,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  add_2_calendar: ^1.4.0
   receive_sharing_intent: ^1.3.3
 
 dev_dependencies:
