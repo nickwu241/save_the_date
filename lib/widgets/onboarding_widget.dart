@@ -59,7 +59,7 @@ final pageList = [
             color: Colors.white,
             fontSize: 34.0,
           )),
-      body: Text('It\;s thhat easy.',
+      body: Text('It\'s that easy.',
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.white,
