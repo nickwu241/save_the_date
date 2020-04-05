@@ -42,8 +42,7 @@ final pageList = [
             color: Colors.white,
             fontSize: 34.0,
           )),
-      body: Text(
-          'Share it to "Save The Date" and it\'ll add it to your calendar!',
+      body: Text('Share it to "SaveDate" and it\'ll add it to your calendar!',
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.white,
@@ -53,7 +52,7 @@ final pageList = [
   PageModel(
       color: const Color(0xFF09B90BC),
       heroAssetPath: 'assets/calendar.png',
-      title: Text('3. Profit',
+      title: Text('3. Add it to Calendar',
           style: TextStyle(
             fontWeight: FontWeight.w800,
             color: Colors.white,

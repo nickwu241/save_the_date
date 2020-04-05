@@ -16,8 +16,7 @@ Future<ParsedImageResult> parseImageFile(File imageFile) async {
   final VisionText visionText = await textRecognizer.processImage(visionImage);
   _printVisionText(visionText);
 
-  final title =
-      visionText.blocks.first.lines.map((l) => l.toString()).join(' ');
+  final String title = visionText.blocks.toList()[0].text;
   final calendarEvent = parseText(title: title, text: visionText.text);
 
   textRecognizer.close();

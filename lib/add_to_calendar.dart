@@ -6,7 +6,7 @@ Future<bool> addToCalendar(CalendarEvent calendarEvent) {
     title: calendarEvent.title,
     startDate: calendarEvent.startDate,
     endDate: calendarEvent.endDate,
-    timeZone: DateTime.now().timeZoneName,
+    timeZone: 'GMT-7',
   );
 
   return Add2Calendar.addEvent2Cal(event);
