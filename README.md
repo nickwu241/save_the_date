@@ -1,6 +1,6 @@
 # Save The Date
 
-[![YouTube Demo](demo_images/badge-youtube.svg)](https://www.youtube.com/watch?v=pDBKZgbR0xk) [![Devpost](demo_images/badge-devpost.svg)](hhttps://devpost.com/software/save-the-date-dql1fr)
+[![YouTube Demo](demo_images/badge-youtube.svg)](https://www.youtube.com/watch?v=pDBKZgbR0xk) [![Devpost](demo_images/badge-devpost.svg)](https://devpost.com/software/save-the-date-dql1fr)
 
 Add events to your calendar just by taking screenshots! Created by [Nick Wu](https://nickwu241.github.io) and Vivian Lam.
 
